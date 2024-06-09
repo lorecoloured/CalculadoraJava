@@ -40,14 +40,14 @@ public class Main {
                 case '*':
                     resultado = multiplicar(num1, num2);
                     break;
-                /*case '/':
+                case '/':
                     if (num2 != 0) {
                         resultado = dividir(num1, num2);
                     } else {
                         System.out.println("Error: No se puede dividir por cero.");
                         operacionValida = false;
                     }
-                    break; */
+                    break;
                 default:
                     System.out.println("Operación no válida.");
                     operacionValida = false;
@@ -72,9 +72,9 @@ public class Main {
         public static double multiplicar(double a, double b) {
             return a * b;
         }
-/*
+
         public static double dividir(double a, double b) {
             return a / b;
-        } */
+        }
     }
 
