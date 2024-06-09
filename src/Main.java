@@ -37,7 +37,7 @@ public class Main {
                 case '-':
                     resultado = restar(num1, num2);
                     break;
-              /*  case '*':
+                case '*':
                     resultado = multiplicar(num1, num2);
                     break;
                 case '/':
@@ -47,7 +47,7 @@ public class Main {
                         System.out.println("Error: No se puede dividir por cero.");
                         operacionValida = false;
                     }
-                    break; */
+                    break;
                 default:
                     System.out.println("Operación no válida.");
                     operacionValida = false;
@@ -69,12 +69,12 @@ public class Main {
             return a - b;
         }
 
-       /* public static double multiplicar(double a, double b) {
+        public static double multiplicar(double a, double b) {
             return a * b;
         }
 
         public static double dividir(double a, double b) {
             return a / b;
-        } */
+        }
     }
 
