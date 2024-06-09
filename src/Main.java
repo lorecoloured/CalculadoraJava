@@ -37,10 +37,10 @@ public class Main {
                 case '-':
                     resultado = restar(num1, num2);
                     break;
-              /*  case '*':
+                case '*':
                     resultado = multiplicar(num1, num2);
                     break;
-                case '/':
+                /*case '/':
                     if (num2 != 0) {
                         resultado = dividir(num1, num2);
                     } else {
@@ -69,10 +69,10 @@ public class Main {
             return a - b;
         }
 
-       /* public static double multiplicar(double a, double b) {
+        public static double multiplicar(double a, double b) {
             return a * b;
         }
-
+/*
         public static double dividir(double a, double b) {
             return a / b;
         } */
